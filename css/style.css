@@ -1,0 +1,70 @@
+
+/**********************************
+css reset
+**********************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+/**********************************
+utils
+**********************************/
+
+.margin-right-left-102{
+    margin-right:  6.375rem;
+    margin-left:  6.375rem;
+}
+.margin-right-left-50{
+    margin-right: 3.125rem;
+    margin-left: 3.125rem;
+}
+.margin-right-left-95{
+    margin-right:  5.9375rem;
+    margin-left:  5.9375rem;
+}
+.margin-top-16{
+    margin-top: 1rem;
+}
+.margin-top-72{
+    margin-top: 4.5rem;
+}
+/*************
+Typography
+**************/
+.f-weight-500{
+    font-weight: 500
+}
+.f-size-12{
+    font-size: .75rem;
+}
+.f-size-18{
+    font-size: 1.125rem;
+}
+.f-size-16{
+    font-size: 1rem;
+}
+/**********************************
+component
+**********************************/
+.get-start-btn{
+    padding: 0.75rem 8.1219rem;
+    background-color: #89D2C4;
+    color: #F2F6FC;
+    border-radius: 1.875rem;
+    margin: 15rem 1rem 2.1875rem;
+    border: 0;
+    cursor: pointer;
+}
+/**********************************
+main section first page
+**********************************/
+.get-start-container{
+    background-image:url(../img/Vector.png);
+    background-repeat: no-repeat;
+}
+

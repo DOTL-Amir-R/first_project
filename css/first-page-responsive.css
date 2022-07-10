@@ -1,0 +1,16 @@
+/**********************************
+responsive first page
+**********************************/
+@media screen and (min-width:376px) {
+    .get-start-container{
+        background-image:url(../img/Vector2.png);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+}
+@media screen and (min-width:1350px){
+    .my-container{
+        max-width: 1350px;
+        margin: 0 auto;
+    }
+}
