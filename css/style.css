@@ -129,7 +129,36 @@ main section second page(signup page)
     border: none;
     border-bottom: 0.0625rem solid #9A9A9A;
 }
+.input-signup-page:focus{
+    outline: none;
+}
 .input-signup-page::placeholder{
     color: #3EB09B;
     opacity: 0.5;
+}
+/*********************************
+responsive signup page
+***********************************/
+@media screen and (min-width:376px) {
+    .signup-page-title-container{
+        align-items:center;
+        display: flex;
+        flex-direction: column;
+        background-position-x: center;
+    }
+    .inputs-container-signup-page{
+        align-items:center;
+        display: flex;
+        flex-direction: column;
+    }
+    .signin-btn-container{
+        align-items:center;
+        display: flex;
+        flex-direction: column;
+    }
+    .signin-methods-signup-page-container{
+        align-items:center;
+        display: flex;
+        flex-direction: column;
+    }
 }
