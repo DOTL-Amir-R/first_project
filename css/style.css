@@ -7,7 +7,18 @@ css reset
     margin: 0;
     box-sizing: border-box;
 }
-
+ul, li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+}
 body{
     font-family: 'Noto Sans', sans-serif;
 }
@@ -30,17 +41,32 @@ utils
 .margin-top-16{
     margin-top: 1rem;
 }
+.margin-top-28{
+    margin-top: 1.75rem;
+}
+.margin-top-44{
+    margin-top: 2.75rem;
+}
 .margin-top-72{
     margin-top: 4.5rem;
 }
 /*************
 Typography
 **************/
+.gray-color-1{
+    color: #7C7C7C;
+}
+.line-height-small{
+    line-height: 1.5;
+}
 .f-weight-500{
     font-weight: 500
 }
 .f-size-12{
     font-size: .75rem;
+}
+.f-size-16{
+    font-size: 1rem;
 }
 .f-size-18{
     font-size: 1.125rem;
@@ -48,9 +74,19 @@ Typography
 .f-size-16{
     font-size: 1rem;
 }
+.f-size-30{
+    font-size: 1.875rem;
+}
 /**********************************
 component
 **********************************/
+.signin-btn-signup-page{
+    padding: 0.75rem 4.125rem;
+    background-color: #00866A;
+    box-shadow: 0 0.25rem .5rem rgba(0, 134, 106, 0.18), 0 0.125rem 0.25rem rgba(0, 134, 106, 0.18);
+    border-radius: 1.875rem;
+    color: #F2F6FC;
+}
 .get-start-btn{
     padding: 0.75rem 8.1219rem;
     background-color: #89D2C4;
@@ -68,3 +104,32 @@ main section first page
     background-repeat: no-repeat;
 }
 
+/*********************************
+main section second page(signup page)
+***********************************/
+.signup-page-title-container{
+    background-image:url(../img/second-page-logo.png);
+    background-repeat:no-repeat;
+    background-position-x: right;
+}
+.signup-body{
+    background-color: #F2F6FC;
+}
+.title-signup-page{
+    color: #3EB09B;
+}
+.signup-page-title-container{
+    padding-top: 6.5rem;
+    padding-right: 12.5625rem;
+    padding-left: 1rem;
+    padding-bottom: 2.1875rem;
+}
+.input-signup-page{
+    background-color: #F2F6FC;
+    border: none;
+    border-bottom: 0.0625rem solid #9A9A9A;
+}
+.input-signup-page::placeholder{
+    color: #3EB09B;
+    opacity: 0.5;
+}
