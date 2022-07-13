@@ -32,6 +32,9 @@ utils
     padding-top: 0.5625rem;
     padding-bottom: 0.5625rem;
 }
+.padding-right-187{
+    padding-right: 11.725rem;
+}
 .padd-top-bot-6{
     padding-top: 0.375rem;
     padding-bottom: 0.375rem;
@@ -83,6 +86,9 @@ utils
 /*************
 Typography
 **************/
+.text-align-center{
+    text-align: center;
+}
 .black-color-464646{
     color: #464646;
 }
@@ -158,6 +164,7 @@ component
     background: #EE6093;
     border-bottom-right-radius: .25rem;
     border-top-right-radius: .25rem;
+    width: 100%;
 }
 .second-tool-icon{
     padding: 1.8125rem 2.25rem;
@@ -170,6 +177,7 @@ component
     background: #1AB0B0;
     border-bottom-right-radius: .25rem;
     border-top-right-radius: .25rem;
+    width: 100%;
 }
 .btn-conditons-model{
     padding: 0.375rem 1rem;
@@ -272,4 +280,11 @@ third page styles main-section
     background-image: url(../img/third_page_items/pic_three.png);
     padding: 3.875rem 9.4375rem;
     filter: brightness(.6);
+}
+/******************************************
+third-page-responsive
+******************************************/
+@media screen and (min-width:376px){
+
+
 }
