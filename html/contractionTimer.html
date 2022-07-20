@@ -14,8 +14,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     </head>
     <body class="contraction-timer-tool-page">
-        <header class="contraction-timer-title-container d-flex mt-4 flex-row-reverse gap-92 justify-content-end ms-3">
-            <div class="contraction-timer-title f-size-16 f-weight-500 blue-color-25396F">
+        <header class="contraction-timer-title-container d-flex mt-4 flex-row-reverse gap-92 justify-content-end ms-3 justify-content-sm-center gap-sm-2 ms-sm-0">
+            <div class="contraction-timer-title f-size-16 f-weight-500 blue-color-25396F ">
                 Contraction Timer
             </div>
             <a href="../html/thirdPage.html" class="">
@@ -23,7 +23,7 @@
             </a>
         </header>
         <main class="">
-            <div class="contraction-timer-start-btn-container d-flex me-3 mt-3 pt-3 pe-3 align-items-center flex-row-reverse gap-2">
+            <div class="contraction-timer-start-btn-container justify-content-sm-center me-sm-0 pe-sm-0 d-flex me-3 mt-3 pt-3 pe-3 align-items-center flex-row-reverse gap-2">
                 <img src="../img/contraction-time-tool-page/circle-counter-blue.svg"/>
                 <div class="contraction-timer-title black-color-282828">
                     Contraction Timer
@@ -57,107 +57,109 @@
                     Stop
                 </div>
             </div>
-            <div class="contraction-timer-history-title-container mt-4 d-flex justify-content-between mx-4">
-                <div class="contraction-timer-history-title ps-3 padd-top-bot-6 f-weight-500 f-size-12 white-color-FFFFFF">
-                    Contraction timer history
+            <div class=" d-sm-flex align-items-sm-center flex-sm-column">
+                <div class="contraction-timer-history-title-container mt-4 d-flex mx-4">
+                    <div class="contraction-timer-history-title ps-3 padd-top-bot-6 f-weight-500 f-size-12 white-color-FFFFFF">
+                        Contraction timer history
+                    </div>
+                    <img class="contraction-timer-history-share-btn pe-3 py-2 padd-left-112" src="../img/contraction-time-tool-page/share-btn.svg"/>
                 </div>
-                <img class="contraction-timer-history-share-btn pe-3 py-2" src="../img/contraction-time-tool-page/share-btn.svg"/>
-            </div>
-            <div class="contraction-timer-history-details-container d-flex flex-column margin-bot-28">
-                <div class="last-records-contraction-timer-container mt-3">
-                    <div class="last-records-date-contraction-timer-container mx-3 align-items-center d-flex justify-content-between">
-                        <div class="last-records-contraction-timer-title ms-3 f-weight-500 f-size-14 black-color-282828">
-                            Last record
-                        </div>
-                        <div class="last-records-date-contraction-timer me-3 fw-normal f-size-10 padd-top-3 black-color-282828 ">
-                            27 Jan 2022
-                        </div>
-                    </div>
-                    <div class="last-records-details-contraction-timer d-flex gap-64 mx-3 mt-3">
-                        <div class="time-unit-contraction-timer-container d-flex flex-column ms-3">
-                            <div class="time-title-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
-                                Time
+                <div class="contraction-timer-history-details-container d-flex flex-column margin-bot-28">
+                    <div class="last-records-contraction-timer-container mt-3">
+                        <div class="last-records-date-contraction-timer-container mx-3 align-items-center d-flex justify-content-between">
+                            <div class="last-records-contraction-timer-title ms-3 f-weight-500 f-size-14 black-color-282828">
+                                Last record
                             </div>
-                            <div class="time-details-contraction-timer fw-normal f-size-14 black-color-282828">
-                                3:32 pm
+                            <div class="last-records-date-contraction-timer me-3 fw-normal f-size-10 padd-top-3 black-color-282828 ">
+                                27 Jan 2022
                             </div>
                         </div>
-                        <div class="duration-unit-contraction-timer-container d-flex flex-column">
-                            <div class="duration-title-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
-                                Duration
+                        <div class="last-records-details-contraction-timer d-flex gap-64 mx-3 mt-3">
+                            <div class="time-unit-contraction-timer-container d-flex flex-column ms-3">
+                                <div class="time-title-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
+                                    Time
+                                </div>
+                                <div class="time-details-contraction-timer fw-normal f-size-14 black-color-282828">
+                                    3:32 pm
+                                </div>
                             </div>
-                            <div class="duration-details-contraction-timer fw-normal f-size-14 black-color-282828">
-                                52s
+                            <div class="duration-unit-contraction-timer-container d-flex flex-column">
+                                <div class="duration-title-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
+                                    Duration
+                                </div>
+                                <div class="duration-details-contraction-timer fw-normal f-size-14 black-color-282828">
+                                    52s
+                                </div>
                             </div>
-                        </div>
-                        <div class="frequency-unit-contraction-timer-container d-flex flex-column">
-                            <div class="frequency-title-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
-                                Frequency
-                            </div>
-                            <div class="frequency-level-contraction-timer fw-normal f-size-14 black-color-282828">
-                                Low
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="last-hour-contraction-timer-container mx-3 mt-3">
-                    <div class="last-hour-contraction-timer-title mx-3 f-weight-500 f-size-14 black-color-282828">
-                        Last Hour
-                    </div>
-                    <div class="last-hour-details-contraction-timer d-flex gap-64 mx-3 mt-3">
-                        <div class="time-unit-last-hour-contraction-timer-container d-flex flex-column">
-                            <div class="time-title-last-hour-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
-                                Time
-                            </div>
-                            <div class="time-details-last-hour-contraction-timer fw-normal f-size-14 black-color-282828">
-                                2:12 pm
-                            </div>
-                        </div>
-                        <div class="duration-unit-last-hour-contraction-timer-container d-flex flex-column">
-                            <div class="duration-title-last-hour-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
-                                Duration
-                            </div>
-                            <div class="duration-details-last-hour-contraction-timer fw-normal f-size-14 black-color-282828">
-                                36s
-                            </div>
-                        </div>
-                        <div class="frequency-unit-last-hour-contraction-timer-container d-flex flex-column">
-                            <div class="frequency-title-last-hour-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
-                                Frequency
-                            </div>
-                            <div class="frequency-level-last-hour-contraction-timer fw-normal f-size-14 black-color-282828">
-                                medium
+                            <div class="frequency-unit-contraction-timer-container d-flex flex-column">
+                                <div class="frequency-title-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
+                                    Frequency
+                                </div>
+                                <div class="frequency-level-contraction-timer fw-normal f-size-14 black-color-282828">
+                                    Low
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="last-four-hour-contraction-timer-container mx-3 mt-3 mb-3">
-                    <div class="last-four-hour-contraction-timer-title mx-3 f-weight-500 f-size-14 black-color-282828">
-                        Last 4 Hour
+                    <div class="last-hour-contraction-timer-container mx-3 mt-3">
+                        <div class="last-hour-contraction-timer-title mx-3 f-weight-500 f-size-14 black-color-282828">
+                            Last Hour
+                        </div>
+                        <div class="last-hour-details-contraction-timer d-flex gap-64 mx-3 mt-3">
+                            <div class="time-unit-last-hour-contraction-timer-container d-flex flex-column">
+                                <div class="time-title-last-hour-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
+                                    Time
+                                </div>
+                                <div class="time-details-last-hour-contraction-timer fw-normal f-size-14 black-color-282828">
+                                    2:12 pm
+                                </div>
+                            </div>
+                            <div class="duration-unit-last-hour-contraction-timer-container d-flex flex-column">
+                                <div class="duration-title-last-hour-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
+                                    Duration
+                                </div>
+                                <div class="duration-details-last-hour-contraction-timer fw-normal f-size-14 black-color-282828">
+                                    36s
+                                </div>
+                            </div>
+                            <div class="frequency-unit-last-hour-contraction-timer-container d-flex flex-column">
+                                <div class="frequency-title-last-hour-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
+                                    Frequency
+                                </div>
+                                <div class="frequency-level-last-hour-contraction-timer fw-normal f-size-14 black-color-282828">
+                                    medium
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="last-four-hour-details-contraction-timer d-flex gap-64 mx-3 mt-3">
-                        <div class="time-unit-four-hour-contraction-timer-container d-flex flex-column">
-                            <div class="time-title-four-hour-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
-                                Time
-                            </div>
-                            <div class="time-details-four-hour-contraction-timer fw-normal f-size-14 black-color-282828">
-                                10:25 pm
-                            </div>
+                    <div class="last-four-hour-contraction-timer-container mx-3 mt-3 mb-3">
+                        <div class="last-four-hour-contraction-timer-title mx-3 f-weight-500 f-size-14 black-color-282828">
+                            Last 4 Hour
                         </div>
-                        <div class="duration-unit-four-hour-contraction-timer-container d-flex flex-column">
-                            <div class="duration-title-four-hour-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
-                                Duration
+                        <div class="last-four-hour-details-contraction-timer d-flex gap-64 mx-3 mt-3">
+                            <div class="time-unit-four-hour-contraction-timer-container d-flex flex-column">
+                                <div class="time-title-four-hour-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
+                                    Time
+                                </div>
+                                <div class="time-details-four-hour-contraction-timer fw-normal f-size-14 black-color-282828">
+                                    10:25 pm
+                                </div>
                             </div>
-                            <div class="duration-details-four-hour-contraction-timer fw-normal f-size-14 black-color-282828" >
-                                21s
+                            <div class="duration-unit-four-hour-contraction-timer-container d-flex flex-column">
+                                <div class="duration-title-four-hour-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
+                                    Duration
+                                </div>
+                                <div class="duration-details-four-hour-contraction-timer fw-normal f-size-14 black-color-282828" >
+                                    21s
+                                </div>
                             </div>
-                        </div>
-                        <div class="frequency-unit-four-hour-contraction-timer-container d-flex flex-column">
-                            <div class="frequency-title-four-hour-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
-                                Frequency
-                            </div>
-                            <div class="frequency-level-four-hour-contraction-timer fw-normal f-size-14 black-color-282828">
-                                High
+                            <div class="frequency-unit-four-hour-contraction-timer-container d-flex flex-column">
+                                <div class="frequency-title-four-hour-contraction-timer fw-normal f-size-10 gray-color-ACACAC">
+                                    Frequency
+                                </div>
+                                <div class="frequency-level-four-hour-contraction-timer fw-normal f-size-14 black-color-282828">
+                                    High
+                                </div>
                             </div>
                         </div>
                     </div>
